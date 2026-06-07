@@ -2,10 +2,14 @@
 
 ## Repositórios Atuais
 
-O projeto está separado em dois repositórios: (Privados, para ter acesso precisa entrar em contato: email:1legnarrodrigues@gmail.com)
+O projeto está separado em dois repositórios privados:
 
 - `Ameco-front-end-App-Mobile-`
 - `Ameco-Back-End-Servidor`
+
+Para solicitar acesso, entre em contato por e-mail:
+
+- `1legnarrodrigues@gmail.com`
 
 ## Pré-requisitos
 
@@ -48,5 +52,15 @@ npm install
 node server.js
 ```
 
-- criar padrão de branches
-- criar estratégia de versionamento
+## Observações
+
+- o frontend utiliza Expo, então o ambiente deve estar preparado para execução com `npm start`
+- o backend depende de credenciais e configurações do Firebase
+- variáveis de ambiente devem ser configuradas antes de testar fluxos autenticados ou integrações com IA
+
+## Melhorias Recomendadas
+
+- documentar as variáveis de ambiente exigidas
+- adicionar script `dev` no backend
+- definir padrão de branches
+- definir estratégia de versionamento

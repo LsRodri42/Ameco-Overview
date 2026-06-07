@@ -46,6 +46,11 @@ Atualmente o projeto está dividido em dois repositórios principais:
 - App Mobile: `Ameco-front-end-App-Mobile-`
 - Backend: `Ameco-Back-End-Servidor`
 
+Observação:
+
+- os repositórios de implementação são privados no momento
+- informações de acesso estão em [docs/setup.md](./docs/setup.md)
+
 ## Stack Principal
 
 ### Frontend
@@ -118,7 +123,7 @@ Funções atuais:
 
 ## Demonstração
 
-- Vídeo demonstrativo: https://youtu.be/Sl22f0KKgVE?si=ZdAx8Ulk9bq0XJ-G
+- Vídeo demonstrativo completo: https://youtu.be/Sl22f0KKgVE?si=ZdAx8Ulk9bq0XJ-G
 
 ## Principais Telas
 
@@ -156,7 +161,7 @@ Funções atuais:
 ## Downloads
 
 - Releases do projeto: `https://github.com/LsRodri42/Ameco-Overview/releases`
-- Versão atual planejada: `v1.0.0`
+- Pré-release atual: `v1.0.0`
 - Arquivo do app na release: `ameco-v1.0.apk`
 
 ## Direção Técnica

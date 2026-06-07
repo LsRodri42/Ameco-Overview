@@ -113,23 +113,3 @@ Restrições:
 6. o app apresenta os dados para revisão do usuário
 7. backend valida, evita duplicidade e persiste os dados no Firebase
 8. o aplicativo usa essas informações para histórico, cálculos e estimativas
-
-## Evolução Recomendada
-
-### Curto Prazo
-
-- padronizar contratos de API
-- documentar entidades principais
-- separar melhor serviços compartilhados
-
-### Médio Prazo
-
-- migrar backend para TypeScript
-- introduzir camada de serviços mais formal
-- criar documentação de endpoints
-
-### Longo Prazo
-
-- análises automáticas de histórico
-- alertas personalizados
-- integração com sensores e IoT

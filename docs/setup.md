@@ -2,7 +2,7 @@
 
 ## Repositórios Atuais
 
-O projeto está separado em dois repositórios:
+O projeto está separado em dois repositórios: (Privados, para ter acesso precisa entrar em contato: email:1legnarrodrigues@gmail.com)
 
 - `Ameco-front-end-App-Mobile-`
 - `Ameco-Back-End-Servidor`
@@ -48,25 +48,5 @@ npm install
 node server.js
 ```
 
-Observação:
-
-O backend ainda precisa de padronização melhor de scripts em `package.json`, especialmente para desenvolvimento com recarga automática.
-
-## Configuração Recomendada
-
-### App Mobile
-
-- definir arquivo de ambiente para URL da API
-- padronizar acesso a serviços externos
-
-### Backend
-
-- validar variáveis em `.env`
-- definir porta por variável de ambiente
-- adicionar script `dev` com `nodemon`
-
-## Próximos Ajustes Recomendados
-
-- documentar variáveis de ambiente
 - criar padrão de branches
 - criar estratégia de versionamento

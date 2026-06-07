@@ -159,23 +159,6 @@ Funções atuais:
 - Versão atual planejada: `v1.0.0`
 - Arquivo do app na release: `ameco-v1.0.apk`
 
-## Distribuição do APK
-
-O APK do AMECO não deve ficar versionado diretamente no histórico principal do repositório, porque é um arquivo binário grande e muda por versão.
-
-Recomendação:
-
-- manter o arquivo de APK apenas para preparo local
-- publicar cada versão oficial em `GitHub Releases`
-- adicionar no `README` do repositório o link da release mais recente
-- página de releases: `https://github.com/LsRodri42/Ameco-Overview/releases`
-
-Padrão sugerido de release:
-
-- `v1.0.0`
-- `v1.1.0`
-- `v2.0.0`
-
 ## Direção Técnica
 
 Prioridades atuais:
@@ -184,14 +167,6 @@ Prioridades atuais:
 2. padronizar backend e contratos de API
 3. manter IA com foco educativo e baixo custo operacional
 4. evoluir documentação e organização do projeto
-
-## Melhorias Recomendadas
-
-- padronizar nomenclatura entre repositórios
-- adicionar README nos repositórios mobile e backend
-- migrar backend para TypeScript
-- documentar endpoints e payloads
-- definir estratégia de ambientes
 
 ## Missão
 

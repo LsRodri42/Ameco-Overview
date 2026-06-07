@@ -113,6 +113,45 @@ Funções atuais:
 - [Setup](./docs/setup.md)
 - [Roadmap](./docs/roadmap.md)
 - [Artigo Científico](./docs/publicacoes/artigo-cientifico-ameco.pdf)
+- [Organização de Screenshots](./docs/screenshots.md)
+- [Organização de Mídia](./docs/media.md)
+
+## Demonstração
+
+- Vídeo demonstrativo: https://youtu.be/Sl22f0KKgVE?si=ZdAx8Ulk9bq0XJ-G
+
+## Principais Telas
+
+### Autenticação
+
+![Tela de login](./assets/screenshots/auth/Screenshot_20260606_214633_Ameco.jpg)
+![Tela de cadastro](./assets/screenshots/auth/Screenshot_20260606_214706_Ameco.jpg)
+
+### Dashboard
+
+![Tela principal do dashboard](./assets/screenshots/dashboard/Screenshot_20260606_214825_Ameco.jpg)
+
+### Scanner com IA
+
+![Tela do scanner](./assets/screenshots/scanner/Screenshot_20260606_214856_Ameco.jpg)
+
+### Assistente IA
+
+![Tela do chat AMECO](./assets/screenshots/ia/Screenshot_20260606_214856_Ameco.jpg)
+![Tela do chat AMECO com conversa](./assets/screenshots/ia/Screenshot_20260606_214913_Ameco.jpg)
+
+### Perfil
+
+![Tela de perfil do usuário](./assets/screenshots/perfil/Screenshot_20260606_214932_Ameco.jpg)
+
+### Energia
+
+![Tela de cálculo de energia](./assets/screenshots/energia/Screenshot_20260606_215427_Ameco.jpg)
+![Tela de resultado de energia](./assets/screenshots/energia/Screenshot_20260606_215449_Ameco.jpg)
+
+### Sustentabilidade
+
+![Tela de sustentabilidade](./assets/screenshots/sustentabilidade/Screenshot_20260606_215557_Ameco.jpg)
 
 ## Downloads
 

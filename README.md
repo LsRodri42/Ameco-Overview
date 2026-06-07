@@ -2,7 +2,7 @@
 
 Repositório de visão geral do projeto AMECO.
 
-O AMECO é um aplicativo mobile voltado para sustentabilidade, economia financeira e monitoramento inteligente do consumo de energia elétrica e água. Este repositório centraliza a apresentação do projeto, sua arquitetura, sua organização e os passos iniciais para desenvolvimento.
+O AMECO é um aplicativo mobile voltado para sustentabilidade, economia financeira e monitoramento inteligente do consumo de energia elétrica e água. Seu principal diferencial é o scanner com IA, que permite ao usuário tirar uma foto ou enviar a imagem da conta de água ou energia para leitura automática dos dados. Este repositório centraliza a apresentação do projeto, sua arquitetura, sua organização e os passos iniciais para desenvolvimento.
 
 ## Objetivo
 
@@ -13,6 +13,31 @@ Este repositório existe para:
 - documentar a arquitetura geral
 - organizar roadmap e próximos níveis da IA
 - reunir links para os repositórios técnicos
+
+## Função Principal do AMECO
+
+O fluxo principal do AMECO é a leitura inteligente de contas de consumo.
+
+Como funciona:
+
+1. o usuário tira uma foto ou envia a imagem da conta de água ou energia
+2. a IA analisa a conta e identifica os dados principais
+3. o aplicativo apresenta os dados extraídos para revisão
+4. os dados são salvos no histórico do usuário
+5. o AMECO usa essas informações para realizar os cálculos e estimativas do aplicativo
+
+Dados que podem ser extraídos:
+
+- tipo da conta
+- empresa fornecedora
+- mês de referência
+- vencimento
+- consumo
+- unidade de consumo
+- valor total
+- leituras anteriores e atuais
+
+Com isso, o app reduz preenchimento manual e transforma a conta enviada pelo usuário em base para monitoramento, histórico e estimativas de gasto.
 
 ## Estrutura do Ecossistema
 
@@ -43,6 +68,15 @@ Atualmente o projeto está dividido em dois repositórios principais:
 
 ## Funcionalidades Atuais
 
+### Scanner com IA
+
+- captura de conta por câmera
+- envio de imagem da galeria
+- leitura automática de contas de energia e água
+- revisão dos dados extraídos antes do salvamento
+- verificação de contas duplicadas
+- armazenamento dos dados para uso nos cálculos do app
+
 ### Energia
 
 - cálculo de consumo em kWh
@@ -67,6 +101,7 @@ Nível atual: `Nível 1 - IA Conversacional`
 
 Funções atuais:
 
+- analisar contas a partir de imagem enviada pelo usuário
 - explicar consumo
 - responder dúvidas
 - sugerir economia
@@ -78,6 +113,12 @@ Funções atuais:
 - [Setup](./docs/setup.md)
 - [Roadmap](./docs/roadmap.md)
 - [Artigo Científico](./docs/publicacoes/artigo-cientifico-ameco.pdf)
+
+## Downloads
+
+- Releases do projeto: `https://github.com/LsRodri42/Ameco-Overview/releases`
+- Versão atual planejada: `v1.0.0`
+- Arquivo do app na release: `ameco-v1.0.apk`
 
 ## Distribuição do APK
 

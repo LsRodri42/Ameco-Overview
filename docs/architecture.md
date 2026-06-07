@@ -43,6 +43,21 @@ Responsabilidades:
 - serviços de IA
 - organização de rotas e controladores
 
+## Módulo Central: Scanner de Contas com IA
+
+O principal fluxo funcional do AMECO é o scanner de contas de água e energia.
+
+Responsabilidades desse módulo:
+
+- receber imagem capturada por câmera ou galeria
+- enviar a imagem ao backend
+- redimensionar e preparar a imagem para análise
+- usar IA para extrair os dados relevantes da conta
+- retornar os dados estruturados ao app
+- permitir revisão antes de salvar
+- evitar duplicidade de contas por usuário e mês de referência
+- persistir os dados para histórico e cálculos posteriores
+
 ## Módulos Funcionais
 
 ### Energia
@@ -77,6 +92,7 @@ Saída:
 
 Escopo atual:
 
+- leitura de contas por imagem
 - interpretação educativa
 - orientação de economia
 - explicação de dados
@@ -90,11 +106,13 @@ Restrições:
 ## Fluxo Geral
 
 1. usuário acessa o app mobile
-2. usuário informa dados ou consulta histórico
-3. app processa parte da interface e chama APIs do backend
-4. backend aplica regras, validações e integrações
-5. dados são persistidos no Firebase
-6. resultados retornam ao app
+2. usuário envia uma foto ou imagem da conta de água ou energia
+3. app envia a imagem ao backend para análise
+4. backend redimensiona a imagem e chama o serviço de IA
+5. a IA extrai os dados principais da conta em formato estruturado
+6. o app apresenta os dados para revisão do usuário
+7. backend valida, evita duplicidade e persiste os dados no Firebase
+8. o aplicativo usa essas informações para histórico, cálculos e estimativas
 
 ## Evolução Recomendada
 
